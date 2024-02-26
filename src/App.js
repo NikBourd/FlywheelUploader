@@ -1,5 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DropzoneUploader from './components/DropzoneUploader';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {/* DropzoneUploader component for uploading files */}
+        <DropzoneUploader />
         <a
           className="App-link"
           href="https://reactjs.org"
